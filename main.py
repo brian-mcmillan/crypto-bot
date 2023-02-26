@@ -111,7 +111,7 @@ def notify_user(change, slug, news):
             .create(
             body=f"""\n\n\n{coin}{sent_emoji}{change:.2f}\n{headline}\n{description}""",
             from_='+18445950953',
-            to='+19084193183'
+            to='+1908123456
         )
 
         print(message.sid)
